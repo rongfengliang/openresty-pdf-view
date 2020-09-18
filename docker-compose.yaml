@@ -1,0 +1,10 @@
+version: "3"
+services: 
+  pdf-proxy: 
+    image: openresty/openresty:alpine
+    volumes:
+    - ./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf
+    - ./pdf:/opt/pdf
+    - ./cache:/opt/nginx/data/cache
+    ports: 
+    - "80:80"
