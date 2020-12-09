@@ -47,7 +47,7 @@ encodeURIComponent(ossurl)
 
 * 请求地址
 
-http://localhost/pdf/web/viewer.html?file=<urlencode>
+http://localhost/doc/web/viewer.html?file=<urlencode>
 
 备注:urlencode  http://localhost/pdf?ossurl=<oss-url>
 
